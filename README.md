@@ -19,8 +19,8 @@ $kama = new Romulodl\Kama();
 $kama->calculate(
   array $values,
   int $period = 7,
-  int $phase = 50,
-  float $power = 2
+  int $fastEma = 2,
+  int $slowEma = 30
 );
 ```
 
